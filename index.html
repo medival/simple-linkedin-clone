@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinkedIn Clone</title>
+    <link
+      rel="icon"
+      href="https://play-lh.googleusercontent.com/kMofEFLjobZy_bCuaiDogzBcUT-dz3BBbOrIEjJ-hqOabjK8ieuevGe6wlTD15QzOqw"
+      sizes="16x16"
+      type="image/png"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="home">
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#certification">Certification</a></li>
+          <li><a href="#skills">Skills</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <aside>
+        <div class="wrapper">
+          <div class="profile">
+            <img
+              src="https://media-exp1.licdn.com/dms/image/C5603AQGjUwYtk2pISQ/profile-displayphoto-shrink_200_200/0/1638539788590?e=1650499200&v=beta&t=Cd_GmK784FeHxYOU6Ycmd1kospphac5xSVirI6rAhG0"
+              alt=""
+            />
+            <p class="name">Adi Purnomo</p>
+            <p class="job">DevOps Engineer</p>
+          </div>
+        </div>
+      </aside>
+      <div id="content">
+        <article id="about">
+          <p class="title">About</p>
+          <p class="about_description">
+            I am an undergraduate student. I am an experience in Network
+            Engineer and Cloud Enthusiast. I like to learn new things anytime
+            anywhere. I have goals to learn new things every day to enlarge my
+            knowledge, it can be about anything.
+          </p>
+        </article>
+        <article id="experience">
+          <p class="title">Experience</p>
+          <section class="experience_list">
+            <img
+              class="logo"
+              src="https://media-exp1.licdn.com/dms/image/C560BAQEVREspL4ipDQ/company-logo_200_200/0/1623996255613?e=1652918400&v=beta&t=vA-rftE3smoxZlXfqT_Ea7prpCINFrR5gPhIZaVeRyw"
+              alt=""
+            />
+            <div class="job_desc">
+              <p class="role">Cloud Computing Participant</p>
+              <p class="company">
+                Bangkit Academy led by Google, Tokopedia, Gojek, & Traveloka ·
+                Internship
+              </p>
+              <p class="working_time">Feb 2022 - Jul 2022</p>
+              <p class="city">Jakarta</p>
+            </div>
+          </section>
+
+          <section class="experience_list">
+            <img
+              class="logo"
+              src="data:image/jpeg;base64,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"
+              alt=""
+            />
+            <div class="job_desc">
+              <p class="role">Volunteer</p>
+              <p class="company">UXID - Purwokerto · Part-time</p>
+              <p class="working_time">Apr 2019 - Present</p>
+              <p class="city">Purwokerto Selatan, Central Java, Indonesia</p>
+            </div>
+          </section>
+
+          <section class="experience_list">
+            <img
+              class="logo"
+              src="https://media-exp1.licdn.com/dms/image/C560BAQGYh8ssPHfnmA/company-logo_200_200/0/1597027607104?e=1652918400&v=beta&t=kz5vtvI480v5Lt5OOKnORJKFfKZfk3C2XxZb-YeaWiU"
+              alt=""
+            />
+            <div class="job_desc">
+              <p class="role">
+                Network Security Operation Center (Cyber Blue Team)
+              </p>
+              <p class="company">Metrodata Academy · Internship</p>
+              <p class="working_time">Aug 2021 - Jan 2022</p>
+              <p class="city">Jakarta</p>
+            </div>
+          </section>
+        </article>
+        <article id="education">
+          <p class="title">Education</p>
+          <section class="education_list">
+            <img
+              class="logo"
+              src="https://upload.wikimedia.org/wikipedia/commons/c/cc/LOGO-SWU-BERWARNA.png"
+              alt=""
+            />
+            <div class="education_desc">
+              <p class="university">STMIK Widya Utama</p>
+              <p class="degree">Bachelor's degree</p>
+              <p class="field_of_study">Information Technology</p>
+              <p class="study_time">2017 - 2022</p>
+            </div>
+          </section>
+        </article>
+        <article id="certification">
+          <p class="title">License & Certification</p>
+          <section class="certification_list">
+            <img
+              class="logo"
+              src="https://media-exp1.licdn.com/dms/image/C4D0BAQGoa6N_YKgr0A/company-logo_200_200/0/1519952440120?e=1652918400&v=beta&t=RSeTYawrkUoDVH3pd9nxgjyMUxWOwX5OJ5HL0QRuP6Y"
+              alt=""
+            />
+            <div class="certification_desc">
+              <p class="ceritfied_name">
+                LFCA: Linux Foundation Certified IT Associate
+              </p>
+              <p class="issuing_organization">The Linux Foundation</p>
+            </div>
+          </section>
+          <section class="certification_list">
+            <img
+              class="logo"
+              src="https://media-exp1.licdn.com/dms/image/C4D0BAQGoa6N_YKgr0A/company-logo_200_200/0/1519952440120?e=1652918400&v=beta&t=RSeTYawrkUoDVH3pd9nxgjyMUxWOwX5OJ5HL0QRuP6Y"
+              alt=""
+            />
+            <div class="certification_desc">
+              <p class="ceritfied_name">Introduction to GitOps (LFS169)</p>
+              <p class="issuing_organization">The Linux Foundation</p>
+            </div>
+          </section>
+          <section class="certification_list">
+            <img
+              class="logo"
+              src="https://media-exp1.licdn.com/dms/image/C560BAQHPon7g_XjJpA/company-logo_100_100/0/1519901653038?e=1652918400&v=beta&t=65HwCpPL6zld4JbplbPCf96ML5dVBBMKxZ5e1h8_dMQ"
+              alt=""
+            />
+            <div class="certification_desc">
+              <p class="ceritfied_name">
+                EC-Council Certified Incident Handler (ECIH)
+              </p>
+              <p class="issuing_organization">EC-Council</p>
+            </div>
+          </section>
+          <section class="certification_list">
+            <img
+              class="logo"
+              src="https://media-exp1.licdn.com/dms/image/C560BAQHPon7g_XjJpA/company-logo_100_100/0/1519901653038?e=1652918400&v=beta&t=65HwCpPL6zld4JbplbPCf96ML5dVBBMKxZ5e1h8_dMQ"
+              alt=""
+            />
+            <div class="certification_desc">
+              <p class="ceritfied_name">Certified Network Defender (CND)</p>
+              <p class="issuing_organization">EC-Council</p>
+            </div>
+          </section>
+          <section class="certification_list">
+            <img
+              class="logo"
+              src="https://media-exp1.licdn.com/dms/image/C4D0BAQEGrmchRHuN8w/company-logo_100_100/0/1625153204406?e=1652918400&v=beta&t=wAQ6gSggH5VWkDfxMaefpl66B_GkZPfCXlXFhKBAIcI"
+              alt=""
+            />
+            <div class="certification_desc">
+              <p class="ceritfied_name">Elastic Security Fundamental: SIEM</p>
+              <p class="issuing_organization">Elastic</p>
+            </div>
+          </section>
+          <section class="certification_list">
+            <img
+              class="logo"
+              src="https://media-exp1.licdn.com/dms/image/C4D0BAQEGrmchRHuN8w/company-logo_100_100/0/1625153204406?e=1652918400&v=beta&t=wAQ6gSggH5VWkDfxMaefpl66B_GkZPfCXlXFhKBAIcI"
+              alt=""
+            />
+            <div class="certification_desc">
+              <p class="ceritfied_name">
+                Fundamentals of Securing Elasticsearch
+              </p>
+              <p class="issuing_organization">Elastic</p>
+            </div>
+          </section>
+          <section class="certification_list">
+            <img
+              class="logo"
+              src="https://media-exp1.licdn.com/dms/image/C4D0BAQEGrmchRHuN8w/company-logo_100_100/0/1625153204406?e=1652918400&v=beta&t=wAQ6gSggH5VWkDfxMaefpl66B_GkZPfCXlXFhKBAIcI"
+              alt=""
+            />
+            <div class="certification_desc">
+              <p class="ceritfied_name">Observability Fundamentals</p>
+              <p class="issuing_organization">Elastic</p>
+            </div>
+          </section>
+          <section class="certification_list">
+            <img
+              class="logo"
+              src="https://media-exp1.licdn.com/dms/image/C510BAQEMcFMLYkk5_w/company-logo_100_100/0/1577418396254?e=1652918400&v=beta&t=dtf_MYrfZh2l2_Y-oRY8fn56StoZv6douU0beukIS_k"
+              alt=""
+            />
+            <div class="certification_desc">
+              <p class="ceritfied_name">Btech Certified IT Associate</p>
+              <p class="issuing_organization">PT. Boer Technology (Btech)</p>
+            </div>
+          </section>
+          <section class="certification_list">
+            <img
+              class="logo"
+              src="https://media-exp1.licdn.com/dms/image/C510BAQEMcFMLYkk5_w/company-logo_100_100/0/1577418396254?e=1652918400&v=beta&t=dtf_MYrfZh2l2_Y-oRY8fn56StoZv6douU0beukIS_k"
+              alt=""
+            />
+            <div class="certification_desc">
+              <p class="ceritfied_name">
+                Linux Foundation IT Associate Training
+              </p>
+              <p class="issuing_organization">PT. Boer Technology (Btech)</p>
+            </div>
+          </section>
+          <section class="certification_list">
+            <img
+              class="logo"
+              src="https://media-exp1.licdn.com/dms/image/C560BAQFgaEVT4M46KA/company-logo_100_100/0/1599379483128?e=1652918400&v=beta&t=tw5n5mZZzG4JPbl0UGcTPCdMb55llOsKtTp02cR0-HI"
+              alt=""
+            />
+            <div class="certification_desc">
+              <p class="ceritfied_name">Menjadi Front-End Developer Expert</p>
+              <p class="issuing_organization">Dicoding Indonesia</p>
+            </div>
+          </section>
+        </article>
+        <article id="skills">
+          <p class="title">Skills</p>
+          <div class="skills_list">
+            <p class="skill">Kubernetes</p>
+            <p class="skill">Docker</p>
+            <p class="skill">Containerization</p>
+            <p class="skill">Google Cloud Platform</p>
+            <p class="skill">CI/CD</p>
+            <p class="skill">Linux Adminsitration</p>
+            <p class="skill">Network Engineer</p>
+            <p class="skill">HTML/CSS/JavaScript</p>
+            <p class="skill">PHP & CodeIgniter</p>
+          </div>
+        </article>
+      </div>
+    </main>
+    <a href="#home" id="top" aria-label="Back to top">↑</a>
+    <footer>
+      <div class="social-media">
+        <a href="https://www.facebook.com"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.twitter.com" target="_blank"
+          ><i class="fab fa-twitter"></i
+        ></a>
+        <a href="https://youtube.com"
+          ><i target="_blank" class="fab fa-youtube"></i
+        ></a>
+        <a href="https://github.com/medival" target="_blank">
+          <i class="fab fa-github"></i
+        ></a>
+        <a href="https://medium.com/@medival" target="_blank"
+          ><i class="fab fa-medium"></i
+        ></a>
+        <a href="https://linkedin.com"
+          ><i target="_blank" class="fab fa-linkedin"></i
+        ></a>
+      </div>
+    </footer>
+  </body>
+</html>

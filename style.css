@@ -1,0 +1,230 @@
+/* Ketik code anda dibaris terbawah */
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #e9e9ea;
+  padding: 0.5em 1em;
+  width: 2em;
+}
+
+a:hover {
+  color: #fff;
+}
+
+body {
+  width: 100%;
+}
+
+p {
+  color: #e9e9ea;
+}
+
+hr {
+  width: 80%;
+}
+article,
+aside {
+  background-color: #1e2226;
+}
+
+.clear {
+  clear: left;
+}
+
+body {
+  background-color: #000;
+  color: #e9e9ea;
+  font-family: "Roboto";
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  padding-top: 1em;
+}
+
+li {
+  list-style: none;
+}
+
+nav {
+  width: 100%;
+  padding: 1em;
+  position: fixed;
+  background-color: #1e2226;
+  height: 5em;
+}
+
+aside {
+  height: 25em;
+  margin: 0 3em;
+}
+
+.wrapper {
+  background-image: url(https://media-exp1.licdn.com/dms/image/C5616AQFL1xfplMjhcw/profile-displaybackgroundimage-shrink_200_800/0/1633423094404?e=1650499200&v=beta&t=WPis6Mg24PNtHR21t9Rme1Cs-TdCIK4ACI6cytVl-qQ);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 15em;
+}
+
+.profile {
+  padding-top: 8em;
+  margin-left: 2em;
+}
+
+.profile img {
+  border-radius: 50%;
+}
+
+p.name {
+  font-size: x-large;
+}
+
+p.job {
+  font-size: large;
+  font-weight: 340;
+}
+
+#content {
+  /* background: #000; */
+  margin: 1em;
+  padding: 0 2em;
+}
+
+#about,
+#experience,
+#skills,
+#education,
+#certification {
+  margin: 2em 0;
+  border-radius: 5px;
+  padding: 2em 2em;
+  scroll-margin-top: 6em;
+}
+
+p.title {
+  margin: 0 0 1.5em 0;
+  font-size: larger;
+}
+
+p.about_description {
+}
+
+section.experience_list,
+section.education_list,
+section.certification_list {
+  display: flex;
+  margin: 2em 0;
+}
+
+img.logo {
+  width: 100px;
+  height: 110px;
+  margin: 0 1em 0 0;
+}
+
+.certification_list > img.logo {
+  width: 60px;
+  height: 65px;
+}
+
+.job_desc > p,
+.education_desc > p,
+.certification_desc > p {
+  margin: 0.5em 0;
+}
+
+.job_desc > p:first-child,
+.education_desc > p:first-child,
+.certification_desc > p:first-child {
+  margin: 0;
+}
+
+.job_desc > p:nth-child(3),
+p:nth-child(4),
+.education_desc > p:nth-child(2),
+p:nth-child(3),
+.certification_desc > p:nth-child(2) {
+  font-weight: 300;
+}
+
+.skills_list > p {
+  font-weight: 400;
+  padding: 0.5em 0;
+}
+
+a#top {
+  position: fixed;
+  bottom: 3em;
+  right: 3em;
+  padding: 10px 12px;
+  background-color: rgb(74, 74, 74);
+  border-radius: 5px;
+}
+
+.social-media {
+  display: flex;
+  font-size: 1.5rem;
+  justify-content: center;
+  padding: 0 3em 0 0;
+}
+
+footer {
+  margin: 2em 2em;
+}
+
+@media only screen and (max-width: 600px) {
+  aside {
+    margin: 0;
+  }
+
+  #content {
+    padding: 0;
+    margin: 0;
+  }
+
+  img.logo {
+    width: 70px;
+    height: 75px;
+  }
+
+  .profile {
+    padding-top: 11em;
+    margin-left: 1em;
+  }
+  .profile img {
+    width: 8rem;
+  }
+
+  #about,
+  #experience,
+  #skills,
+  #education,
+  #certification {
+    padding: 2em 1em;
+  }
+}
